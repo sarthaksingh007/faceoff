@@ -21,7 +21,7 @@ export default function Home() {
         <div className="flex">
         <button className="bg-black text-white px-6 py-3 mr-6 ml-4 my-6 rounded-lg">Get Started </button>
         <button className="font-semibold">Watch the Video </button>
-        <button className="mx-6"><img className="w-8 h-8" src={groupimage} alt="grpimg" /></button>
+        {/* <button className="mx-6"><img className="w-8 h-8" src={groupimage} alt="grpimg" /></button> */}
         </div>
       </div>
         {/* <img className=" h-3/4 absolute right-48 top-52 bg-transparent" src={astranot} alt="astranot" /> */}
