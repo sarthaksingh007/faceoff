@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Sarticons img {
+  width: 95%;
+}
+
+.sartcontent {
+  display: flex;
+  align-items: baseline;
+  flex-direction: row;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+
+}
+
+.sartPara {
+  color: black;
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 40px;
+}
+
+.sartcontain img {
+  padding: 10px;
+  margin-bottom: -7px;
+}
+
+.sartcontain {
+  margin: 40px;
+}
+
+.sartcontain p {
+  text-align: justify;
+  margin: 10px 0 0 0;
+  font-weight: 600;
+  padding-right: 10px;
+  width: 70%;
+}
+
+.SarthHak {
+  background-color: #A9C2CB;
+  width: fit-content;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.sartIconss {
+  display: flex;
+}
+
+.sartlower {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 2rem;
+  margin-bottom: 4rem;
+  padding-bottom: 93rem;
+}
+
+.sartspace p {
+  padding: 77px 120px 44px 120px;
+  color: white;
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 800;
+}
+
+.SarthakSpacing {
+  display: flex;
+  bottom: -750px;
+  z-index: 2;
+  position: absolute;
+  width: 85%;
+  margin-left: 68px;
+}
+
+.sartText {
+  background-color: white;
+  margin: 10px 20px 10px 20px;
+  border-radius: 0.5rem;
+
+}
+
+.sartText img {
+  margin: 10px 0 10px 0;
+}
+
+.sartText h5 {
+  font-size: 1.7rem;
+  margin: 10px 0 10px 0
+}
+
+.sartText p {
+  font-size: 1.2rem;
+  line-height: 30px;
+}
+
+.aadi-down {
+  border-radius: 40px;
+  width: 70%;
+  /* background-image: url("my.jpg"); */
+  color: white;
+  background-repeat: no-repeat;
+  padding: 30px;
+  border-radius: 24px;
+}
+
+#aadi-search-bar {
+  width: 60%;
+  height: 55px;
+  border-radius: 24px;
+  padding: 26px 32px 26px 32px;
+  font-size: 17px;
+}
+
+#subs {
+  height: 55px;
+  border-radius: 20px;
+  padding: 0 20px;
+  font-size: 17px;
+  background-color: #A9C2CB;
+  gap: 10px;
+  color: white;
+}
+
+footer {
+  display: flex;
+  margin: 20px 0px;
+  padding: 0px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  vertical-align: center;
+  margin: 0px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.search {
+  display: flex;
+}
+
+@media screen and (max-device-width: 600px) {
+  .sartcontent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .SarthakSpacing {
+    display: flex;
+    bottom: -141rem;
+    z-index: 2;
+    position: absolute;
+    width: 85%;
+    margin-left: 0px;
+    flex-direction: column;
+  }
+
+  .sartspace p {
+    padding: 21px 20px 10px 18px;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: justify;
+  }
+
+  .sartIconss {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sartcontain p {
+    text-align: justify;
+    margin: 10px 0 0 0;
+    font-weight: 600;
+    padding-right: 10px;
+    width: 100%;
+  }
+
+  .sartPara {
+    color: black;
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 25px;
+  }
+
+  footer ul {
+    flex-direction: column;
+  }
+
+  .search {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #aadi-search-bar {
+    width: 80%;
+    height: 40px;
+    padding: 17px 32px 17px 32px;
+  }
+
+  #subs {
+    width: 80%;
+    height: 40px;
+  }
+}
