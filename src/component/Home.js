@@ -1,13 +1,13 @@
 import React from "react";
-import universe from "../images/universe.jpg";
-import groupimage  from "../images/group.jpg";
-import astranot from "../images/astranot.jpg";
+// import universe from "../images/universe.jpg";
+// import groupimage  from "../images/group.jpg";
+// import astranot from "../images/astranot.jpg";
 // import down from "../images/down.jpg"
 export default function Home() {
   return (
     <div className="mt-36 mx-6">
       <div className="px-6">
-        <img src={universe} alt="universeimage" />
+        {/* <img src={universe} alt="universeimage" /> */}
       </div>
        <div className="flex">
       <div className="w-2/4 px-6">
@@ -24,7 +24,7 @@ export default function Home() {
         <button className="mx-6"><img className="w-8 h-8" src={groupimage} alt="grpimg" /></button>
         </div>
       </div>
-        <img className=" h-3/4 absolute right-48 top-52 bg-transparent" src={astranot} alt="astranot" />
+        {/* <img className=" h-3/4 absolute right-48 top-52 bg-transparent" src={astranot} alt="astranot" /> */}
         {/* <img className='absolute left-2/4 bottom-6' src={down} alt="down" /> */}
       </div>
     </div>
