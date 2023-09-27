@@ -69,7 +69,7 @@
 
 .SarthakSpacing {
   display: flex;
-  bottom: -750px;
+  bottom:-120rem;
   z-index: 2;
   position: absolute;
   width: 85%;
