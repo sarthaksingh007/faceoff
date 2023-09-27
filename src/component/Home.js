@@ -1,6 +1,6 @@
 import React from "react";
 import universe from "../images/universe.jpg";
-import groupimage  from "../images/Group 1.png";
+import groupimage  from "../images/group.jpg";
 import astranot from "../images/astranot.jpg";
 // import down from "../images/down.jpg"
 export default function Home() {
